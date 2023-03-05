@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "bootstrap_pagination/version"
 
 Gem::Specification.new do |s|
-  s.name        = "will_paginate-bootstrap"
+  s.name        = "spinels-will_paginate-bootstrap"
   s.version     = BootstrapPagination::VERSION
   s.authors     = ["Nick Dainty"]
   s.email       = ["nick@npad.co.uk"]
