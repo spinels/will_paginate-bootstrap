@@ -11,8 +11,6 @@ Gem::Specification.new do |s|
   s.summary     = %q{Integrates the Twitter Bootstrap pagination component with will_paginate}
   s.description = %q{This gem integrates the Twitter Bootstrap pagination component with the will_paginate pagination gem. Supports Rails and Sinatra.}
 
-  s.rubyforge_project = "will_paginate-bootstrap"
-
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
