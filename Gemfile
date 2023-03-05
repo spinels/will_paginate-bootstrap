@@ -7,6 +7,7 @@ group :development do
   gem "rake"
   gem "nokogiri"
   gem "minitest"
+  gem "minitest-global_expectations"
 end
 
 group :example_app do

@@ -1,4 +1,4 @@
-require 'minitest/autorun'
+require 'minitest/global_expectations/autorun'
 require 'nokogiri'
 require 'will_paginate/array'
 require 'will_paginate/view_helpers/link_renderer'
