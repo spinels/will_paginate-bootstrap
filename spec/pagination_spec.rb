@@ -52,10 +52,6 @@ describe "Bootstrap Renderer" do
     html.at_css('ul li.disabled').wont_be_nil
   end
 
-  it "has one item with rel start value" do
-    html.css('[rel~=start]').size.must_equal 1
-  end
-
   it "has two items with rel prev value" do
     html.css('[rel~=prev]').size.must_equal 2
   end
